@@ -50,6 +50,7 @@ If a module instantiates instances of a class, reloading the module that defines
 
 Example
 =======
+>>> from importlib import reload
 >>> import math
 >>> reload(math)
 <module 'math' (built-in)>
